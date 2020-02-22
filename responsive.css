@@ -1,0 +1,140 @@
+@media (max-width: 1000px) {
+
+    /* header */
+
+    .header-menu ul li a{
+		font-size: 16px;
+    }
+    .header-menu div.logo{
+        width: 30%;
+    }
+    .logo img {
+        width: 200px !important;
+    }
+    .header-menu .container {
+        max-width: 1280px;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .menu {
+        width: 70%;
+    }
+
+    .col-2 {
+        width: 100%;
+    }
+    .col-3 {
+        width: 100%;
+    }
+
+    .client-section h2 {
+        margin-bottom: 50px;
+        line-height: 3.7;
+    }
+    
+    .client-section {
+        height: 1000px;
+    }
+
+    /* footer */
+
+	.footer-distributed {
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-company-name{
+		font-size: 12px;
+	}
+
+	.footer-distributed form input,
+	.footer-distributed form textarea{
+		width: 250px;
+	}
+
+	.footer-distributed form button{
+		padding: 10px 35px;
+	}
+
+}
+
+@media (max-width: 858px){
+
+    /* header */
+
+	.header-menu .checkbtn{
+		display: block;
+	}
+	.header-menu ul{
+		position: fixed;
+		width: 100vw;
+		height: 100vh;
+		background: radial-gradient(circle,rgba(255, 0, 128, 0.753), rgba(245, 167, 49, 0.767));
+		top: 64px;
+		left: -100vw;
+		text-align: center;
+		transition: all .5s;
+		opacity: 0.8;
+	}
+	.header-menu ul li{
+		display: block;
+		margin: 50px 0;
+		line-height: 30px; 
+	}
+	.header-menu ul li a{
+		font-size: 20px;
+	}
+	.header-menu a:hover, a.active {
+		background: none;
+		color: white;
+	}
+	.header-menu #check:checked ~ ul{
+		left: 0;
+    }
+    .header-menu div.logo{
+        width: 70%;
+        margin-top: 5px;
+    }
+    .logo img {
+        width: 170px !important;
+    }
+    .menu {
+        width: 20%;
+    }
+
+    .col-2 {
+        width: 100%;
+    }
+    .col-3 {
+        width: 100%;
+    }
+    
+    /* footer */
+
+    .footer-distributed{
+		padding: 30px;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-right{
+		float: none;
+		max-width: 300px;
+		margin: 0 auto;
+	}
+
+	.footer-distributed .footer-left{
+		margin-bottom: 40px;
+	}
+
+	.footer-distributed form{
+		margin-top: 30px;
+	}
+
+	.footer-distributed form{
+		display: block;
+	}
+
+	.footer-distributed form button{
+		float: none;
+	}
+
+}

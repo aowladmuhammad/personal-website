@@ -1,0 +1,358 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 85%;
+}
+h1{
+    font-size: 46px;
+}
+h2{
+    font-size: 36px;
+    font-weight: normal;
+}
+p{
+    color: dimgray;
+    line-height: 1.7;
+}
+.text-highlight {
+    color: rgb(255, 0, 128);
+    font-weight: bold;
+    margin-bottom: 45px;
+    margin-top: -25px;
+}
+.col-2{
+    float: left;
+    overflow: hidden;
+}
+.text-style {
+    width: 60%;
+    min-height: 400px;
+}
+.text-style img {
+    width: 55%;
+}
+.img-style {
+    width: 40%;
+    min-height: 400px;
+}
+.img-style img {
+    width: 100%;
+}
+.p-left {
+    padding-left: 50px;
+}
+.p-right {
+    padding-right: 50px;
+}
+.p-top {
+    padding-top: 50px;
+}
+.m-right {
+    margin-right: 3.33%;
+}
+
+/* *********** header-menu starts ************ */
+.header-menu {
+	background: linear-gradient(240deg,rgb(255, 0, 128) 60%, #F5A531);
+	height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+.header-menu div.logo{
+    width: 30%;
+}
+.logo img {
+    width: 217px !important;
+}
+.menu {
+    width: 70%;
+}
+.header-menu ul{
+    float: right;
+    margin-right: 20px;
+    display: block;
+    padding: 0;
+}
+.header-menu ul li{
+	display: inline-block;
+	line-height: 50px;
+	margin: 0 5px;
+}
+.header-menu ul li a{
+	color: white;
+	font-size: 17px;
+	padding: 7px 13px;
+	border-radius: 3px; 
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.5s;
+    border-bottom: 2px solid transparent;
+}
+.header-menu a.active, nav ul li:hover a {
+    border-bottom: 2px solid white;
+}
+.header-menu .checkbtn{
+	font-size: 30px;
+	color: white;
+	float: right;
+	line-height: 80px;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
+}
+.header-menu #check{
+	display: none;
+}
+
+/* ********** header-menu ends ********** */
+
+.header-area {
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+}
+.header-body {
+    margin-top: 150px;
+}
+section{
+    min-height: 500px;
+    padding-bottom: 50px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #EC4F8F, #EC4B76);
+    padding: 15px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    display: inline-block;
+    font-size: 14px;
+    transition: 0.5s;
+}
+.link-button:hover {
+    box-shadow: 10px 10px 10px rgba(153, 37, 84, 0.507);
+}
+.biography-area{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+    background-color: white;
+}
+.latest-work{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    display: block;
+}
+.latest-work h2 {
+    text-align: center;
+    padding: 60px 0px;
+}
+.client-section {
+    text-align: center;
+}
+
+.client-section h2 {
+    margin-bottom: 50px;
+}
+.client-section h4 {
+    margin-bottom: -10px;
+}
+.client-section p:nth-of-type(2) {
+    font-size: 30px;
+    color: #333333;
+    width: 45%;
+    margin: 0 auto;
+    text-align: center;
+}
+.client-section .message-section {
+    background: linear-gradient(45deg,rgb(187, 71, 117), rgb(241, 57, 100));
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 50px;
+}
+.message-section p {
+    color: white !important;
+}
+.client-section {
+    padding-bottom: 0;
+    min-height: 700px;
+}
+
+.footer-distributed{
+	background: linear-gradient(45deg,#14345B, #097CAB);
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	font: bold 16px sans-serif;
+	text-align: left;
+	padding: 50px 60px 40px;
+	overflow: hidden;
+}
+
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	float: left;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Roboto', cursive;
+	margin: 0 0 10px;
+}
+
+.footer-distributed h3 span{
+	color:  #5383d3;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer social icons */
+
+.footer-distributed .footer-icons{
+	margin-top: 40px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	float: right;
+}
+
+.footer-distributed .footer-right p{
+	display: inline-block;
+	vertical-align: top;
+	margin: 15px 42px 0 0;
+	color: #ffffff;
+}
+
+/* The contact form */
+
+.footer-distributed form{
+	display: inline-block;
+}
+
+.footer-distributed form input,
+.footer-distributed form textarea{
+	display: block;
+	border-radius: 3px;
+	box-sizing: border-box;
+	background-color:  #1f2022;
+	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+	border: none;
+	resize: none;
+
+	font: inherit;
+	font-size: 14px;
+	font-weight: normal;
+	color:  #d1d2d2;
+
+	width: 400px;
+	padding: 18px;
+}
+
+.footer-distributed ::-webkit-input-placeholder {
+	color:  #5c666b;
+}
+
+.footer-distributed ::-moz-placeholder {
+	color:  #5c666b;
+	opacity: 1;
+}
+
+.footer-distributed :-ms-input-placeholder{
+	color:  #5c666b;
+}
+
+
+.footer-distributed form input{
+	height: 55px;
+	margin-bottom: 15px;
+}
+
+.footer-distributed form textarea{
+	height: 100px;
+	margin-bottom: 20px;
+}
+
+.footer-distributed form button{
+	border-radius: 3px;
+	background-color:  #33383b;
+	color: #ffffff;
+	border: 0;
+	padding: 15px 50px;
+	font-weight: bold;
+    float: right;
+    cursor: pointer;
+}
+
+
+
+.footer-bottom {
+    text-align:  center;
+    font-size: 14px;
+    opacity: 0.9;
+    padding: 10px 0;
+}
+
+.col-3 {
+    float: left;
+    width: 30%;
+}
+.col-3 img {
+    width: 100%;
+}
